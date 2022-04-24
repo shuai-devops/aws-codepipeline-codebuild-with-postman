@@ -7,6 +7,7 @@ phases:
                                    --s3-bucket postman-api
                                    --s3-prefix api-code
                                    --output-template-file petstore-api-output.yaml
+                                   --no-fail-on-empty-changeset
 artifacts:
   type: zip
   files:
